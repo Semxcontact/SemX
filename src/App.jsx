@@ -11,7 +11,7 @@ let x = createBrowserRouter([
     element: <Layout />,
     children: [
       { index: true, element: <Home /> },
-      { path: '*', element: <NotFound /> },
+      { path: '*', element: <Home /> },
     ],
   },
 ]);
