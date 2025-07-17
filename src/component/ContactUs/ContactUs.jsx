@@ -29,7 +29,7 @@ export default function ContactUs() {
     setError('')
     setSuccess('')
     try {
-      await axios.post('http://semxapi.runasp.net/api/contact', form)
+      await axios.post('https://semxapi.runasp.net/api/contact', form)
       setSuccess('Your message has been sent successfully!')
       setForm({ name: '', email: '', subject: '', message: '' })
     } catch {
