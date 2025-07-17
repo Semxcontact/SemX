@@ -1,0 +1,58 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background: none; /* Remove background */
+  z-index: 10;
+  overflow: hidden;
+}
+
+.logoSection {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+  margin-right: 1rem;
+}
+
+.company {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #b2ffb2;
+  font-size: 0.9rem;
+  line-height: 1.1;
+}
+
+.menu {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.menu li {
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.active {
+  background: #888;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.4rem 1.2rem;
+  font-size: 1.1rem;
+}
